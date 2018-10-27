@@ -1,0 +1,2 @@
+Eine tote Zelle mit drei Nachbarn entsteht in der nächsten Generation.
+

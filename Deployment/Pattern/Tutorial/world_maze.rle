@@ -1,0 +1,4 @@
+#N Tutorial Maze
+#O Sebastian Pech
+x = 8, y = 8, rule = B3/S12345
+2bo$b3o$2ob2o$o2bo2b2o$3ob4o$2b2ob3o$3bo$3bo!

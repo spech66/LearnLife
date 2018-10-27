@@ -1,0 +1,1 @@
+Spaceships move infinitely through the world.

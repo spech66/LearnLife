@@ -1,0 +1,2 @@
+Still lifes are objects which do not change without the influence of other
+objects.

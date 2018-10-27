@@ -1,0 +1,3 @@
+The Replication Rule from Edward Fredkin defines a world in which every pattern
+might reproduce with multiple copies of itself.
+

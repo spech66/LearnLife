@@ -1,0 +1,21 @@
+Um sich beim Vergleich verschiedener Regelwerke eine umständliche Umschreibung
+der Regeln zu ersparen, existiert eine Kurzschreibweise für die Regeln von Game
+of Life: Man setzt zunächst (in aufsteigender Reihenfolge) die Ziffern der
+Anzahl von Nachbarn aneinander, bei der eine Zelle überlebt, und anschließend,
+durch einen Schrägstrich abgetrennt, die Ziffern, die den Werten entsprechen,
+bei der eine Zelle geboren wird.
+
+Die klassische Conway-Welt wird durch 23/3 beschrieben, die oben beschriebene
+Kopierwelt durch 1357/1357.
+
+Ebenfalls sehr gebräuchlich ist die explizite Angabe der Regeln als
+BGeboren/SÜberlegen. Somit würde die Conway-Welt als B2/S23 aufgeschrieben.
+
+Von http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens Kategorien:
+Theoretische Ökologie, Computerspiel bis 1970, Lebenssimulation,
+Grossrechner-Spiel Diese Seite wurde zuletzt am 5. Juni 2012 um 15:52 Uhr
+geändert. Der Text ist unter der Lizenz Creative Commons Attribution/Share Alike
+verfügbar; zusätzliche Bedingungen können anwendbar sein. Einzelheiten sind in
+den Nutzungsbedingungen beschrieben. Wikipedia® ist eine eingetragene Marke der
+Wikimedia Foundation Inc.
+

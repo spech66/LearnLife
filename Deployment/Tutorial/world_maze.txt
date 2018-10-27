@@ -1,0 +1,16 @@
+Maze is a Life-like cellular automaton in which cells survive from one
+generation to the next if they have at least 1 and at most 5 neighbours. Cells
+are born if they have exactly 3 neighbours. This resembles Conway's Game of Life
+in some ways, but it is rather more difficult for cells to die off, and random
+starting patterns tend to evolve into complex growing maze-like structures with
+well-defined walls outlining corridors.
+
+The maze rule is explosive, which means that most randomly-generated starting
+patterns will explode in all directions. Nonetheless, there are many still lifes
+and oscillators under this rule. It has no known spaceships.
+
+Retrieved from "http://www.conwaylife.com/wiki/Maze" Categories: Everything else
+| Cellular automata | Life-like cellular automata This page was last modified on
+16 February 2012, at 12:47. Content is available under GNU Free Documentation
+License 1.2.
+

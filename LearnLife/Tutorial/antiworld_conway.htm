@@ -1,0 +1,154 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<p>For every world an antiworld exists where everything is inverted. All living cells are dead and dead cells are alive.</p>
+<p>To create antiworld the rules are written down as a switchboard:</p>
+<dl>
+<dd>
+<table rules="all" class="hintergrundfarbe1 rahmenfarbe1" style="margin: 1em 1em 1em 0px; border-style: solid; border-width: 1px; border-collapse: collapse; font-size: 95%; empty-cells: show; border-color: black;" border="2" cellpadding="4" cellspacing="0">
+<tbody><tr>
+<td></td>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+</tr>
+<tr>
+<th style="color: blue; border: medium none black;">L</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th style="color: red; border: medium none black;">D</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody></table>
+</dd>
+</dl>
+<ul>
+<li><span style="color: blue;"><b>L</b></span> stands for living cells.</li>
+<li><span style="color: red;"><b>D</b></span> marks dead cells.</li>
+</ul>
+<p>The following grid shows the standard life rules where three neighbours create living cells and living cells with two or three neighbours stay alive:</p>
+<dl>
+<dd>
+<table rules="all" class="hintergrundfarbe1 rahmenfarbe1" style="margin: 1em 1em 1em 0px; border-style: solid; border-width: 1px; border-collapse: collapse; font-size: 95%; empty-cells: show; border-color: black;" border="2" cellpadding="4" cellspacing="0">
+<caption>Conway-Rules</caption>
+<tbody><tr>
+<td></td>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+</tr>
+<tr>
+<th style="color: blue; border: medium none black;">L</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th style="color: red; border: medium none black;">D</th>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+</tr>
+</tbody></table>
+</dd>
+</dl>
+<p>The antiworld rule are created by rotating the state of the switchboard by 180° (no mirroring or tilting):</p>
+<dl>
+<dd>
+<table rules="all" class="hintergrundfarbe1 rahmenfarbe1" style="margin: 1em 1em 1em 0px; border-style: solid; border-width: 1px; border-collapse: collapse; font-size: 95%; empty-cells: show; border-color: black;" border="2" cellpadding="4" cellspacing="0">
+<caption>Anti-Conway-Rules</caption>
+<tbody><tr>
+<td></td>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+</tr>
+<tr>
+<th style="color: blue; border: medium none black;">L</th>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+</tr>
+<tr>
+<th style="color: red; border: medium none black;">D</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody></table>
+</dd>
+</dl>
+
+<p>&nbsp;</p>
+<p>Orginal version taken from german Wikipedia. Translated by Sebastian Pech.<br />
+Von <a href="http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens#Antiwelten">http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens#Antiwelten</a><br />
+Kategorien: Theoretische Ökologie, Computerspiel bis 1970, Lebenssimulation, Grossrechner-Spiel<br />
+Diese Seite wurde zuletzt am 5. Juni 2012 um 15:52 Uhr geändert.<br />
+Der Text ist unter der Lizenz <a href="http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported">Creative Commons Attribution/Share Alike</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Einzelheiten sind in den Nutzungsbedingungen beschrieben.<br />
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+</p>
+
+</body>
+</html>

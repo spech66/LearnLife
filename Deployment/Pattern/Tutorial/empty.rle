@@ -1,0 +1,9 @@
+#N LearnLife Tutorial
+#O Sebastian Pech
+#C LearnLife Tutorial
+#C http://www.spech.de/
+x = 59, y = 7, rule = B/S012345678
+7obo5bob7ob7ob6o2b3o4bo4bo$3bo4bo5bo4bo4bo5bobo5bo2bo4bobo3bo$3bo4bo5b
+o4bo4bo5bobo5bo2bo3bo3bo2bo$3bo4bo5bo4bo4bo5bob6o3bo2bo5bobo$3bo4bo5bo
+4bo4bo5bobo3bo4bo2b7obo$3bo4bo5bo4bo4bo5bobo4bo3bo2bo5bobo$3bo5b5o5bo
+4b7obo5bob3obo5bob7o!

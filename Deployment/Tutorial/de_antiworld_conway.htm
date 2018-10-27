@@ -1,0 +1,153 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<p>Zu jeder Regelwelt gibt es eine Antiregelwelt, in der Form, dass alles invertiert ist. Also alle Zellen, die sonst tot sind, leben, und alle Zellen, die sonst leben, sind tot. Dies zeigt sich im Ablauf durch ein schwarzes Feld, auf dem die Strukturen weiß sind.</p>
+<p>Um eine solche Antiregelwelt zu erzeugen, kann man die Regeln in Form eines Schalterfeldes darstellen:</p>
+<dl>
+<dd>
+<table rules="all" class="hintergrundfarbe1 rahmenfarbe1" style="margin: 1em 1em 1em 0px; border-style: solid; border-width: 1px; border-collapse: collapse; font-size: 95%; empty-cells: show; border-color: black;" border="2" cellpadding="4" cellspacing="0">
+<tbody><tr>
+<td></td>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+</tr>
+<tr>
+<th style="color: blue; border: medium none black;">G</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th style="color: red; border: medium none black;">T</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody></table>
+</dd>
+</dl>
+<ul>
+<li><span style="color: blue;"><b>G</b></span> steht für Geburt.</li>
+<li><span style="color: red;"><b>T</b></span> steht für Tod.</li>
+</ul>
+<p>Die folgende Belegung bedeutet, dass bei drei Nachbarn eine tote Zelle lebendig wird und eine lebende Zelle bei keinem oder einem sowie bei vier bis acht Nachbarn stirbt und ansonsten der Zustand einer Zelle unangetastet bleibt:</p>
+<dl>
+<dd>
+<table rules="all" class="hintergrundfarbe1 rahmenfarbe1" style="margin: 1em 1em 1em 0px; border-style: solid; border-width: 1px; border-collapse: collapse; font-size: 95%; empty-cells: show; border-color: black;" border="2" cellpadding="4" cellspacing="0">
+<caption>Conway-Regeln</caption>
+<tbody><tr>
+<td></td>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+</tr>
+<tr>
+<th style="color: blue; border: medium none black;">G</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th style="color: red; border: medium none black;">T</th>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+</tr>
+</tbody></table>
+</dd>
+</dl>
+<p>Wenn man die Zustände des Schalterfelds um 180° rotiert (nicht spiegelt oder kippt), erhält man die Antiregeln:</p>
+<dl>
+<dd>
+<table rules="all" class="hintergrundfarbe1 rahmenfarbe1" style="margin: 1em 1em 1em 0px; border-style: solid; border-width: 1px; border-collapse: collapse; font-size: 95%; empty-cells: show; border-color: black;" border="2" cellpadding="4" cellspacing="0">
+<caption>Anti-Conway-Regeln</caption>
+<tbody><tr>
+<td></td>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+</tr>
+<tr>
+<th style="color: blue; border: medium none black;">G</th>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+</tr>
+<tr>
+<th style="color: red; border: medium none black;">T</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td style="background: none repeat scroll 0% 0% rgb(0, 255, 0);">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody></table>
+</dd>
+</dl>
+
+<p>&nbsp;</p>
+<p>Von <a href="http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens#Antiwelten">http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens#Antiwelten</a><br />
+Kategorien: Theoretische Ökologie, Computerspiel bis 1970, Lebenssimulation, Grossrechner-Spiel<br />
+Diese Seite wurde zuletzt am 5. Juni 2012 um 15:52 Uhr geändert.<br />
+Der Text ist unter der Lizenz <a href="http://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Commons_Attribution-ShareAlike_3.0_Unported">Creative Commons Attribution/Share Alike</a> verfügbar; zusätzliche Bedingungen können anwendbar sein. Einzelheiten sind in den Nutzungsbedingungen beschrieben.<br />
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+Since Life's inception, new similar cellular automata have been developed. The
+standard Game of Life, in which a cell is "born" if it has exactly 3 neighbours,
+stays alive if it has 2 or 3 living neighbours, and dies otherwise, is
+symbolised as "B3/S23". The first number, or list of numbers, is what is
+required for a dead cell to be born. The second set is the requirement for a
+live cell to survive to the next generation. Hence "B6/S16" means "a cell is
+born if there are 6 neighbours, and lives on if there are either 1 or 6
+neighbours".
+
+Sometimes the rules are written as SurvialRule/BornRule. So "Life" would be
+written as 23/3.
+
+Retrieved from
+"http://en.wikipedia.org/w/index.php?title=Conway%27s_Game_of_Life&oldid=4949992
+35" Categories: Cellular automaton rules, Self-organization This page was last
+modified on 29 May 2012 at 19:08. Text is available under the Creative Commons
+Attribution-ShareAlike License; additional terms may apply. See Terms of use for
+details. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.,
+a non-profit organization.

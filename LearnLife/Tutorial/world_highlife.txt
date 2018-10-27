@@ -1,0 +1,33 @@
+HighLife is a cellular automaton similar to Conway's Game of Life. It was
+devised in 1994 by Nathan Thompson. It is a two-dimensional, two-state cellular
+automaton in the "Life family" and is described by the rule B36/S23; that is, a
+cell is born if it has 3 or 6 neighbors and survives if it has 2 or 3 neighbors.
+Because the rules of HighLife and Conway's Life (rule B3/S23) are similar, many
+simple patterns in Conway's Life function identically in HighLife. More
+complicated engineered patterns for one rule, though, typically do not work in
+the other rule.
+
+he main reason for interest in HighLife comes from the existence of a pattern
+called the replicator. After running the replicator for twelve generations, the
+result is two replicators. The replicators will repeatedly reproduce themselves,
+all on a diagonal line. Whenever two replicators try to expand into each other,
+the pattern in the middle simply vanishes. The behavior of a row of Replicators
+interacting with each other in this way simulates the one-dimensional Rule 90
+cellular automaton, where a single replicator simulates a nonzero cell of the
+Rule 90 automaton and a blank space where a replicator could be simulates a zero
+cell of Rule 90.[1] Replicators can be used to engineer other more complex
+patterns, such as glider guns and high period oscillators. It is also possible
+to make slow spaceships using the replicator, but no explicit examples have yet
+been found. Nevertheless, a simple c/6 diagonal spaceship has been found, known
+as the bomber.
+
+It has been proven that replicators exist in Conway's Life as well.
+
+Retrieved from
+"http://en.wikipedia.org/w/index.php?title=HighLife&oldid=460001089" Categories:
+Cellular automaton rules This page was last modified on 10 November 2011 at
+18:05. Text is available under the Creative Commons Attribution-ShareAlike
+License; additional terms may apply. See Terms of use for details. Wikipedia® is
+a registered trademark of the Wikimedia Foundation, Inc., a non-profit
+organization.
+

@@ -1,0 +1,13 @@
+Move (or Morley) is a Life-like cellular automaton in which cells survive from
+one generation to the next if they have 2, 4, or 5 neighbours. Cells are born if
+they have 3, 6, or 8 neighbours. Random starting patterns tend to stabilize into
+ash consisting of small still lifes and period 2 and 4 oscillators. It also
+contains one commonly-occurring slow-moving spaceship and slow-moving puffer.
+The time required to stabilize is generally much shorter than in the Game of
+Life.
+
+Retrieved from "http://www.conwaylife.com/wiki/Move" Categories: Everything else
+| Cellular automata | Life-like cellular automata This page was last modified on
+17 October 2011, at 08:56. Content is available under GNU Free Documentation
+License 1.2.
+

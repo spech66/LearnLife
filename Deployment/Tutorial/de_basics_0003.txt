@@ -1,0 +1,3 @@
+Eine Zelle mit exakt zwei oder drei Nachbarn lebt in der nächsten Generation
+weiter.
+

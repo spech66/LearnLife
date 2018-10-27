@@ -1,0 +1,2 @@
+Zellen mit weniger als zwei Nachbarn sterben in der nächsten Generation.
+

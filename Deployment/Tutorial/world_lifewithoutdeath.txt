@@ -1,0 +1,22 @@
+Life without Death is a cellular automaton, similar to Conway's Game of Life and
+other Life-like cellular automaton rules. In this cellular automaton, an initial
+seed pattern grows according to the same rule as in Conway's Game of Life;
+however, unlike Life, patterns never shrink. The rule was originally considered
+by Toffoli & Margolus (1987), who called it "Inkspot";[1] it has also been
+called "Flakes".[2] In contrast to the more complex patterns that exist within
+Conway's Game of Life, Life without Death commonly features still life patterns,
+in which no change occurs, and ladder patterns, that grow in a straight line.
+
+Instead, a common feature in Life without Death patterns is the presence of
+ladders, patterns that grow in a straight line. A ladder will grow forever
+unless it runs into some other part of the pattern and is blocked or unless some
+more quickly-growing pattern overtakes it.
+
+Retrieved from
+"http://en.wikipedia.org/w/index.php?title=Life_without_Death&oldid=481463249"
+Categories: Cellular automaton rules This page was last modified on 12 March
+2012 at 04:56. Text is available under the Creative Commons
+Attribution-ShareAlike License; additional terms may apply. See Terms of use for
+details. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.,
+a non-profit organization.
+

@@ -1,0 +1,4 @@
+#N Maze Experiment
+#O Sebastian Pech
+x = 4, y = 3, rule = B3/S12345
+o2bo$b2o$o2bo!

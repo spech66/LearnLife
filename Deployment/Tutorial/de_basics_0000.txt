@@ -1,0 +1,23 @@
+Conways Spiel des Lebens
+
+Das Spiel des Lebens (engl. Conway's Game of Life) ist ein vom Mathematiker John
+Horton Conway 1970 entworfenes System, basierend auf einem zweidimensionalen
+zellulären Automaten. Es ist eine einfache und bis heute populäre Umsetzung der
+Automaten-Theorie von Stanislaw Marcin Ulam.
+
+Das Spielfeld ist in Zeilen und Spalten unterteilt und im Idealfall unendlich
+groß. Jedes Gitterquadrat ist ein Zellulärer Automat (Zelle), der einen von zwei
+Zuständen einnehmen kann, welche oft als lebendig und tot bezeichnet werden.
+Zunächst wird eine Anfangsgeneration von lebenden Zellen auf dem Spielfeld
+platziert. Jede lebende oder tote Zelle hat auf diesem Spielfeld genau acht
+Nachbarzellen, die berücksichtigt werden (Moore-Nachbarschaft). Die nächste
+Generation ergibt sich durch die Befolgung einfacher Regeln.
+
+Von http://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens Kategorien:
+Theoretische Ökologie, Computerspiel bis 1970, Lebenssimulation,
+Grossrechner-Spiel Diese Seite wurde zuletzt am 5. Juni 2012 um 15:52 Uhr
+geändert. Der Text ist unter der Lizenz Creative Commons Attribution/Share Alike
+verfügbar; zusätzliche Bedingungen können anwendbar sein. Einzelheiten sind in
+den Nutzungsbedingungen beschrieben. Wikipedia® ist eine eingetragene Marke der
+Wikimedia Foundation Inc.
+

@@ -1,0 +1,19 @@
+<lessons>
+	<tutorial name="Basics - Conways Game of Life" pattern="empty.rle" file="basics_0000.txt" />
+	<tutorial name="Basics - Life - Rules - Creation" pattern="basics_0001.cells" file="basics_0001.txt" generationmax="1" />
+	<tutorial name="Basics - Life - Rules - Under-population" pattern="basics_0002.cells" file="basics_0002.txt" generationmax="1" />
+	<tutorial name="Basics - Life - Rules - Survival" pattern="basics_0003.cells" file="basics_0003.txt" generationmax="1" />
+	<tutorial name="Basics - Life - Rules - Overcrowding" pattern="basics_0004.cells" file="basics_0004.txt" generationmax="1" />
+	<tutorial name="Life - Still lifes" pattern="life_0001.cells" file="life_0001.txt" generationmax="21" />
+	<tutorial name="Life - Oscillators" pattern="life_0002.cells" file="life_0002.txt" generationmax="21" />
+	<tutorial name="Life - Spaceships - Glider" pattern="life_0003.cells" file="life_0003.txt" generationmax="37" />
+	<tutorial name="Life - Spaceships" pattern="life_0004.cells" file="life_0004.txt" generationmax="65" />
+	<tutorial name="Basics - Rules - Notation" pattern="empty.rle" file="basics_0005.txt" />
+	<tutorial name="World - Replicator" pattern="world_replicator.rle" file="world_replicator.txt" border="200" generationmax="97" />
+	<tutorial name="World - High Life" pattern="world_highlife.rle" file="world_highlife.txt" border="100" generationmax="181" />
+	<tutorial name="World - Day and Night" pattern="world_dayandnight.rle" file="world_dayandnight.txt" />
+	<tutorial name="World - Life without Death" pattern="world_lifewithoutdeath.rle" file="world_lifewithoutdeath.txt" border="100" />
+	<tutorial name="World - Morley / Move" pattern="world_morley.rle" file="world_morley.txt" border="20" generationmax="71" />
+	<tutorial name="World - Maze" pattern="world_maze.rle" file="world_maze.txt" border="100" generationmax="280" />
+	<tutorial name="Antiworld - Anti-Conway" pattern="antiworld_conway.rle" file="antiworld_conway.htm" border="100" />
+</lessons>

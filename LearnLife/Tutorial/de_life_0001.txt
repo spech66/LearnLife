@@ -1,0 +1,1 @@
+Statische Objekte ändern ihre Struktur nicht mehr ohne äußere Einflüsse.

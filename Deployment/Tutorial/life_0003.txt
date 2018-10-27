@@ -1,0 +1,1 @@
+Gliders are special types of spaceships traveling diagonal infinetly.

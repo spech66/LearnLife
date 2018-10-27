@@ -1,0 +1,2 @@
+Hat eine Zelle mehr als drei Nachbarn stirbt sie in der nächsten Generation.
+

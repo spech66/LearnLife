@@ -1,0 +1,1 @@
+Oscillators change repeat theire structure after a fixed number of generations.

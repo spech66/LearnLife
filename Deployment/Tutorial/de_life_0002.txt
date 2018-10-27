@@ -1,0 +1,3 @@
+Oszillierende Objekte ändern ihre Struktur nach einem sich wiederholenden Schmea
+und erreichen nach einer festen Anzahl von Generationen ihren Ausgangszustand.
+
