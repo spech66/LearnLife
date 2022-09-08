@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/LearnLife/LearnLifeCmd/obj/x86/Debug
+/LearnLife/LearnLifeCore/bin/Debug
+/LearnLife/LearnLifeCore/obj/Debug
+/LearnLife/LearnLifeWin/obj/x86/Debug
+/LearnLife/packages/SharpZipLib.1.3.3
