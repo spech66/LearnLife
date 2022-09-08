@@ -78,7 +78,7 @@ namespace LearnLifeCore.FileReader
                     case '7':
                     case '8':
                     case '9':
-                      empty += (string) (object) ch;
+                      empty += ch.ToString();
                       break;
                     default:
                       switch (ch)

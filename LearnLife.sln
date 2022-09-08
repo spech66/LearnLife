@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLifeCmd", "LearnLifeCmd\LearnLifeCmd.csproj", "{68836CB6-7190-4318-BD3C-2D8DE4539074}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLifeCmd", "LearnLife\LearnLifeCmd\LearnLifeCmd.csproj", "{68836CB6-7190-4318-BD3C-2D8DE4539074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLifeCore", "LearnLifeCore\LearnLifeCore.csproj", "{10D4389D-4CEE-44CA-9142-43B90A561A56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLifeCore", "LearnLife\LearnLifeCore\LearnLifeCore.csproj", "{10D4389D-4CEE-44CA-9142-43B90A561A56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLifeWin", "LearnLifeWin\LearnLifeWin.csproj", "{4CFC7C19-B617-4A5B-8EF2-82F6F81EF4AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnLifeWin", "LearnLife\LearnLifeWin\LearnLifeWin.csproj", "{4CFC7C19-B617-4A5B-8EF2-82F6F81EF4AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
